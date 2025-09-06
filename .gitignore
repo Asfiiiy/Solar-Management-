@@ -1,0 +1,9 @@
+*.log
+.env
+node_modules/
+vendor/
+cache/
+tmp/
+uploads/
+config/*.json
+*.key

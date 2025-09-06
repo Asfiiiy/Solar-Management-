@@ -1,0 +1,185 @@
+/* Main container for the Manage Products page */
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #05445E;
+}
+h3 {
+    justify-content: center;
+    display: block;
+    
+}
+
+.rate{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: #d4f1f4;
+    color: #05445E;
+    font-weight: bolder;
+}
+.rate:focus{
+    outline: none;
+    background-color: #d4f1f4;
+    font-weight: bold;
+}
+/* Navigation styling for tabs */
+.nav-tabs {
+    margin-bottom: 20px;
+    /* display: flex; */
+  /* justify-content: space-between; */
+    
+}
+
+.nav-link {
+    background-color: #05445e;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-link.active {
+    background-color: #75e6da;
+    color: #05445e;
+    margin-right: 10%;
+}
+
+/* Form styling for inputs, selects, and buttons */
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d4f1f4;
+    color: #05445E;
+    font-weight: bolder;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: #d4f1f4;
+    font-weight: bold;
+}
+
+select.form-control {
+    background-color: #05445e;
+    color: white;
+}
+
+select.form-control:hover {
+    background-color: #75e6da;
+}
+
+/* Button styles */
+.btn-primary {
+    /* padding: 12px 20px; */
+    background-color: #05445e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #75e6da;
+}
+
+.btn-danger {
+    padding: 12px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #ff6f61;
+}
+
+/* Search bar styling */
+.form-control[type="text"] {
+    padding: 10px;
+    width: 100%;
+    /* margin-top: 20px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-control[type="text"]:focus {
+    outline: none;
+    background-color: #d4f1f4;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #05445e;
+    color: white;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .form-group {
+        flex: 1 1 48%;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        padding: 10px 16px;
+    }
+
+    .btn-danger {
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-group {
+        flex: 1 1 100%;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .btn-danger {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+}

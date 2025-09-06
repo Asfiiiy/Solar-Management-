@@ -1,0 +1,136 @@
+/* Consistent Layout Styling */
+.sales-page {
+    display: flex;
+    height: 100vh;
+   
+    background-color: #f8f8f8;
+  }
+
+  
+  .sidebar {
+    width: 250px;
+    background-color: #05445e;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar ul li a svg {
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .sales-summary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sales-item {
+    text-align: center;
+  }
+  
+  .sales-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .sales-item h4 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .sales-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sales-table th, .sales-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sales-table th {
+    background-color: #f8f8f8;
+  }
+  
+  .sales-bar-chart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .bar-fill {
+    background-color: #05445e;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .sales-bar-chart span {
+    font-size: 14px;
+  }
+  
+  .categories-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .category-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+  }
+  

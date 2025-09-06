@@ -1,0 +1,50 @@
+/* Navbar Full Width */
+.navbar {
+    background-color: #05445E; /* Set background color */
+    width: 100%; /* Ensure the navbar takes full width of the page */
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+/* Styling for the brand (left side logo or text) */
+.navbar-brand {
+    color: #fcf8f8 !important; /* Set text color to white */
+}
+
+/* Text color for the navbar text on the right */
+.navbar-text {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: #05445E; /* Set dropdown background to the same as navbar */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+/* Dropdown item text color */
+.dropdown-item {
+    color: #fff; /* Set dropdown item text to white */
+    /* font-weight: bold; */
+}
+#transactions-dropdown, #reports-dropdown,#settings-dropdown {
+    color: white;
+    font-weight: bold;
+}
+
+/* Dropdown item hover effect */
+.dropdown-item:hover {
+    background-color: #D4F1F4;
+     
+}
+
+/* Navbar link color */
+.navbar-nav .nav-link {
+    color: #fff; /* Set text color of links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd; /* Set hover color for navbar links */
+}

@@ -1,0 +1,150 @@
+/* Main Layout Styling */
+.inventory-page {
+    display: flex;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color:#05445e;
+    color: white;
+    /* padding: 20px; */
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 20px;
+    
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    /* font-size: 10rem; */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: rgb(27, 168, 224);
+    border-radius: 10px;
+    font-weight: bold;
+   
+  }
+  
+  .sidebar ul li a svg {
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .summary-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .summary-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 130px;
+    text-align: center;
+  }
+  
+  .sales-graph {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sales-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bar {
+    width: 30px;
+    background-color: #05445e;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .stock-summary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .low-stock ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .categories-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .category-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .store-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .add-product-btn {
+    background-color: #6a4c9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #563285;
+  }
+  
